@@ -1,6 +1,6 @@
 # Adapter
 
-I2V-Adapter [link](https://ojs.aaai.org/index.php/AAAI/article/view/28226)
+T2I-Adapter [link](https://ojs.aaai.org/index.php/AAAI/article/view/28226)
 
 
 ## Overview  
