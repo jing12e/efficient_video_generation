@@ -13,11 +13,12 @@
 
 ### 1.2 Adapters
 [description](adapter.md)
-1. SimDA: Simple Diffusion Adapter for Efficient Video Generation
+1. SimDA: Simple Diffusion Adapter for Efficient Video Generation (CVPR 24)
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Xing_SimDA_Simple_Diffusion_Adapter_for_Efficient_Video_Generation_CVPR_2024_paper.pdf)
 [code](https://github.com/ChenHsing/SimDA)
-![img_1.png](img_1.png)
-    devises a parameter-efficient training approach by maintaining the parameter of the T2I model and uses two adapters to train it.
+   1) tune the T2I (Stable Diffusion) model for T2V by designing light-weight spatial and temporal adapters for transfer learning. 
+   2) change the original spatial attention to the proposed latent-shift attention for temporal consistency.
+
 2. I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models
 [paper](https://arxiv.org/pdf/2312.16693)
 3. CTRL-Adapter: An Efficient and Versatile Framework
@@ -35,9 +36,10 @@ for Adapting Diverse Controls to Any Diffusion Model
 
 ### 1.3 Low Rank Adaption
 
-1. AnimateDiff
+1. AnimateDiff: Animate Your Personalized Text-to-image Diffusion Models without Specific Tuning (ICLR 24) [[Paper]](https://openreview.net/pdf?id=Fx2SbBgcte) [[Project]](https://animatediff.github.io/)
 2. DragVideo: Interactive Drag-style Video Editing (ECCV 24) [paper](https://arxiv.org/pdf/2312.02216) [code](https://github.com/RickySkywalker/DragVideo-Official)
-3. MagicStick
+![img_2.png](img_2.png)
+3. MagicStick (WACV 25)no code
 
 ## 2 Efficient Sampling and Inference
 
